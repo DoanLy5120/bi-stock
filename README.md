@@ -242,3 +242,6 @@ pm2 reload stock-api      # restart êm
 3. `curl localhost:3000/api/health` → `{"status":"ok",...}`.
 4. Mở `/` → số liệu tổng quan hiện; `/wip` → lưu tag rồi F5 vẫn còn; `/reserve` → bảng chi tiết phân trang;
    `/api-console` → banner `configured: false`, 2 dataset, bấm Refresh thấy build mới trong recent calls.
+
+
+//đang dùng logic.test.mjs để test
